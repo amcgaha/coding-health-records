@@ -82,7 +82,7 @@ The following script was used to flag records for manual review.
 ### 5.	Generate Keyword Dictionary 
 While adjusting negative reports, notes were taken on how the medical reports tend to describe symptoms. From these notes, a dictionary of terms and synonyms was generated. 
 
-[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/keyword_dictionary)
+[View Keywords](https://github.com/amcgaha/coding-health-records/blob/main/keyword_dictionary)
 
 
 ### 6.	Classify Records 
