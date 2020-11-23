@@ -3,12 +3,12 @@
 My summer camp is revising its communicable disease protocol for summer 2021. In addition to public health guidance and expert advice, we hope to study our own health center records to see what we can learn from illnesses at camp in the past. This project develops a method for cleaning and classifying messy text-centered reports. It yields a tidy dataset and recommendations for further investigation.
 
 ## Contents
-1.	Introduction
-2.	Data Sources
-3.	Methods & Tools
-4.	Procedure
-5.	Products
-6.	Next Steps
+1.	[Introduction](https://github.com/amcgaha/coding-health-records#introduction)
+2.	[Data Source](https://github.com/amcgaha/coding-health-records#data-source)
+3.	[Methods & Tools](https://github.com/amcgaha/coding-health-records#methods--tools)
+4.	[Procedure](https://github.com/amcgaha/coding-health-records#procedure)
+5.	[Products](https://github.com/amcgaha/coding-health-records#products)
+6.	[Next Steps](https://github.com/amcgaha/coding-health-records#next-steps)
 
 ## Introduction
 The COVID-19 pandemic has caused many organizations to reevaluate their communicable disease protocols. My organization, a summer camp that did not open in 2020, is working on a safety plan to open this summer, which requires a careful study of best practices and risk management techniques.
