@@ -38,13 +38,13 @@ In the early stages of investigation, an important fact was observed. While an a
  
 
 ## Methods & Tools
-Health center records are processed in Python using the pandas library. While the tables are censored for privacy, the process is documented in Jupyter Notebooks so readers can follow along.
+Health center records are processed in __Python__ using the __pandas__ library. While the tables are censored for privacy, the process is documented in __Jupyter Notebooks__ so readers can follow along.
 
-One script also flags records that require manual adjustment. These adjustments were made in Microsoft Excel, using filters and conditional formatting to make manual cleaning easier.
+One script also flags records that require manual adjustment. These adjustments were made in __Microsoft Excel__, using filters and conditional formatting to make manual cleaning easier.
 
-Once processed and classified, the completed dataset is uploaded to an existing PostgreSQL database with information about years, sessions, campers, and households. (I created this database beforehand.) 
+Once processed and classified, the completed dataset is uploaded to an existing __PostgreSQL__ database with information about years, sessions, campers, and households. (I created this database beforehand.) 
 
-This project begins by adding information on staff to the database, because both campers and staff visit the health center as patients. The project ends by uploading a completed dataset to the database using SQL commands in DataGrip.
+This project begins by adding information on staff to the database, because both campers and staff visit the health center as patients. The project ends by uploading a completed dataset to the database using __SQL__ commands in __DataGrip__.
 
 ## Procedure
 ### 1.	Add Staff to Database 
