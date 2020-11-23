@@ -27,7 +27,8 @@ This project demonstrates the method for cleaning and classifying our health cen
 
 Once we have the robust dataset, we can then conduct a more detailed study of cold and flu symptoms. We can also answer many more questions about health at our camp. We can identify trends, risks, and problem areas across many health categories, including injuries, bug bites, and even staff burnout or camper homesickness.
 
-Privacy Note: Health records are extremely sensitive and regulated by law. Therefore, the data itself will remain completely private. Only the documentation of my process will be published. 
+__Privacy Note: Health records are extremely sensitive and regulated by law. Therefore, the data itself will remain completely private. Only the documentation of my process will be published. __
+
 
 ## Data Source
 The primary data source is the health center records downloaded from our data management system. This table includes records of all visits to the camp infirmary for the years 2013 – 2019. The number of records is 3,798.
