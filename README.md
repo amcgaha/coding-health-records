@@ -54,7 +54,7 @@ The data includes health records for both camper and staff visits to the health 
 
 After downloading a table with staff information from our commercial data management system, the following script was applied to clean and prepare the table. 
 
-https://github.com/amcgaha/coding-health-records/blob/main/add_staff_to_db.ipynb
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/add_staff_to_db.ipynb)
 
 The table was then uploaded to the database and verified using SQL commands in DataGrip.
 
@@ -68,7 +68,7 @@ Another error observed was an apparent limit in the character limit of text boxe
 ### 3.	Combine & Clean Records 
 With the main errors fixed, the next step was to combine all the records together and create some uniformity with how records are stored in the database. The following script was applied to concatenate records together, add a few new columns, enforce data types, and rename columns to match the database format.
 
-https://github.com/amcgaha/coding-health-records/blob/main/preparing_records.ipynb
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/preparing_records.ipynb)
 
 ### 4.	Fix Negative Report Bias 
 After studying the data, a pervasive source of error became clear. Medical staff often report a _lack_ of symptoms in their notes in addition to positive reports. Because this project aims to classify records based on the text in the medical notes, this habit presents a problem. It would be easy to overestimate records for nausea, for example, because as many as half – or more – might be from medical staff reporting that a patient “denies nausea” or “states no nausea.” This problem impacts more than a third of all records in some way, which is over 1,000 records.
@@ -77,18 +77,18 @@ Several options were considered for how to deal with this challenge programmatic
 
 The following script was used to flag records for manual review.
 
-https://github.com/amcgaha/coding-health-records/blob/main/health_flagger.ipynb
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/health_flagger.ipynb)
 
 ### 5.	Generate Keyword Dictionary 
 While adjusting negative reports, notes were taken on how the medical reports tend to describe symptoms. From these notes, a dictionary of terms and synonyms was generated. 
 
-https://github.com/amcgaha/coding-health-records/blob/main/keyword_dictionary
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/keyword_dictionary)
 
 
 ### 6.	Classify Records 
 Using the keyword dictionary created in the last step, the following script was applied to the health center records. It searches the text for keywords and turns columns to True if it finds a match.
 
-https://github.com/amcgaha/coding-health-records/blob/main/health_classifier.ipynb
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/health_classifier.ipynb)
 
 ### 7.	Add Records to Database 
 The resulting dataset was uploaded to the database and verified using SQL commands. The verification process revealed an error on the first attempt, which was corrected. Steps 5-6 were edited and performed again. The error was that the classification code was accidentally left to the default setting, which made the text search case-sensitive. It therefore missed a range of lower- and upper-case combinations of text. With this error fixed, the verification tests were passed.
@@ -96,7 +96,7 @@ The resulting dataset was uploaded to the database and verified using SQL comman
 ### 8.	Group for Exploration 
 The following script was applied, which queries the database for a subset of the larger dataset focused on cold and flu symptoms. It then groups the resulting data by categories like year, day, and camper status, and exports a csv of the data for exploration in other platforms.
 
-https://github.com/amcgaha/coding-health-records/blob/main/grouping_records_for_viz%20(1).ipynb
+[View Notebook](https://github.com/amcgaha/coding-health-records/blob/main/grouping_records_for_viz%20(1).ipynb)
 
 ### 9.	Visualize Cold Symptoms 
 Finally, cold and flu symptoms were visualized to offer some initial ideas and questions for further research.
