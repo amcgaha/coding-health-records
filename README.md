@@ -31,7 +31,7 @@ __Privacy Note__: Health records are extremely sensitive and regulated by law. T
 
 
 ## Data Source
-The primary data source is the health center records downloaded from our data management system. This table includes records of all visits to the camp infirmary for the years 2013 – 2019. The number of records is 3,798.
+The primary data source is the health center records downloaded from our data management system. This table includes records of all visits to the camp health center for the years 2013 – 2019. The number of records is 3,798.
 
 This data is messy, inconsistent, and – thanks to a blank text box for entering notes – filled with shorthand, spelling errors, and other tough text problems. However, this data also contains a wealth of information about patient symptoms, treatment, temperature, time, and date and whether the patient was a camper or staff member.
 
