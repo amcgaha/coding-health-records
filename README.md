@@ -2,6 +2,8 @@
 
 My summer camp is revising our communicable disease plan for summer 2021. In addition to public health research and expert advice, we hope to study our own health center records to see what we can learn from illnesses at camp in the past. This project develops a method for cleaning and classifying messy text-centered reports. It yields a tidy dataset and recommendations for further investigation.
 
+__Privacy Note__: Health records are extremely sensitive and regulated by law. Therefore, the data itself will remain completely private. Only the documentation of my process will be published.
+
 ## Contents
 1.	[Introduction](https://github.com/amcgaha/coding-health-records#introduction)
 2.	[Data Source](https://github.com/amcgaha/coding-health-records#data-source)
