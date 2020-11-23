@@ -37,6 +37,7 @@ This data is messy, inconsistent, and – thanks to a blank text box for enterin
 
 In the early stages of investigation, an important fact was observed. While an average summer has about 573 health center visits recorded, one summer appears to have a serious problem of underreporting. The plot below shows that in 2016, medical staff reported about 223 fewer records than the average. This hole in the data should be considered when aggregating or comparing data from different summers.
  
+![Image](https://github.com/amcgaha/coding-health-records/blob/main/total_records_image.png)
 
 ## Methods & Tools
 Health center records are processed in __Python__ using the __pandas__ library. While the tables are censored for privacy, the process is documented in __Jupyter Notebooks__ so readers can follow along.
@@ -128,12 +129,14 @@ The plot shows this number for each day across the camp season, and it reflects 
 
 Because the camp schedule has remained the same during the entire data history, days can be standardized (Summer Day) to reveal patterns in how visits manifest during certain days. An overlay of camp session (Staff Training, Session 1, etc.) also shows which days belong to which sessions.
 
- 
+![Image](https://github.com/amcgaha/coding-health-records/blob/main/possible_infections.png)
+
 While Possible Infections capture more data, they can also be skewed by single symptoms, such as simple headaches or fatigue. These are important symptoms of colds or the flu, but they can also have many causes. 
 
 The second plot employs mostly the same parameters as the first. However, instead of Possible Infections, the second chart shows Likely Infections -- those that report at least two cold or flu symptoms. This plot shows visits that we can be more confident show real respiratory infections.
 
- 
+![Image](https://github.com/amcgaha/coding-health-records/blob/main/likely_infections.png)
+
 In both charts, some interesting trends are apparent through time. In particular three “waves” of infections seem to occur toward the end of Session 2, 3, and 4. 
 
 Differences between staff and campers are also observed. Most obvious is that a “third wave” of infections is less clear for staff. 
@@ -141,7 +144,7 @@ Differences between staff and campers are also observed. Most obvious is that a 
 While these trends are certainly interesting, they should not lead to any conclusions just yet. A simple check of the rest of the dataset shows that all health center visits follow the same pattern, even with Possible Infections removed. The plot below shows that all other visits have a similar pattern: three distinct “waves” of visits toward the end of the middle sessions. 
 This is a clue that the data requires careful study before drawing conclusions. 
  
-
+![Image](https://github.com/amcgaha/coding-health-records/blob/main/visits_minus_possible.png)
 
 ## Next Steps
 ### 1.	Address Reporting Errors 
