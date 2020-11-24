@@ -46,7 +46,7 @@ Health center records are processed in __Python__ using the __pandas__ library. 
 
 One script also flags records that require manual adjustment. These adjustments were made in __Microsoft Excel__, using filters and conditional formatting to make manual cleaning easier.
 
-Once processed and classified, the completed dataset is uploaded to an existing __PostgreSQL__ database with information about years, sessions, campers, and households. (I created this database beforehand.) 
+Once processed and classified, the completed dataset is uploaded to an existing __Postgres__ database with information about years, sessions, campers, and households. (I created this database beforehand.) 
 
 This project begins by adding information on staff to the database, because both campers and staff visit the health center as patients. The project ends by uploading a completed dataset to the database using __SQL__ commands in __DataGrip__.
 
