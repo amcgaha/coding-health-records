@@ -52,7 +52,7 @@ This project begins by adding information on staff to the database, because both
 
 ## Procedure
 ### 1.	Add Staff to Database 
-The data includes health records for both camper and staff visits to the health center. It is important to be able to differentiate between camper and staff visits, as well as connect other information, such as names and birthdates, to verify the data or explore other questions. However, the existing PostgreSQL database I created earlier only included information on campers at the time. Before we could work with the health records, staff needed to be added to the database.
+The data includes health records for both camper and staff visits to the health center. It is important to be able to differentiate between camper and staff visits, as well as connect other information, such as names and birthdates, to verify the data or explore other questions. However, the existing Postgres database I created earlier only included information on campers at the time. Before we could work with the health records, staff needed to be added to the database.
 
 After downloading a table with staff information from our commercial data management system, the following script was applied to clean and prepare the table. 
 
